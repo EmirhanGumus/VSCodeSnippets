@@ -1,0 +1,20 @@
+{
+	"Create Consumer Widget": {
+		"scope": "dart",
+		"prefix": "cw",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"import 'package:flutter_riverpod/flutter_riverpod.dart';",
+			"",
+			"class ${1:WidgetName} extends ConsumerWidget {",
+			"  const ${1:WidgetName}({Key? key}) : super(key: key);",
+			"",
+			"  @override",
+			"  Widget build(BuildContext context, WidgetRef ref) {",
+			"    return Container($2);",
+			"  }",
+			"}",
+		],
+		"description": "Create consumer widget"
+	}
+}
