@@ -1,0 +1,30 @@
+{
+	"Create Consumer Widget": {
+		"scope": "dart",
+		"prefix": "csw",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"import 'package:flutter_riverpod/flutter_riverpod.dart';",
+			"",
+			"class ${1:WidgetName} extends ConsumerStatefulWidget {",
+			"   const ${1:WidgetName}({Key? key}): super(key: key);",
+			"",
+			"   @override",
+			"   ${1:WidgetName}State createState() => ${1:WidgetName}State();",
+			"}",
+			"",
+			"class ${1:WidgetName}State extends ConsumerState<${1:WidgetName}> {",
+			"   @override",
+			"   void initState() {",
+			"      super.initState();",
+			"}",
+			"",
+			"   @override",
+			"   Widget build(BuildContext context) {",
+			"      return Container($2);",
+			"   }",
+			"}",
+		],
+		"description": "Create consumer satefull widget"
+	}
+}
